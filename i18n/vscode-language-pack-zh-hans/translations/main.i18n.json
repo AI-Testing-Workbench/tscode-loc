@@ -16086,7 +16086,7 @@
 			"configureTrustedDomains": "配置受信任的域(&&T)",
 			"copy": "复制(&&C)",
 			"open": "打开(&&O)",
-			"openExternalLinkAt": "是否要 {0} 打开外部网站?"
+			"openExternalLinkAt": "是否要打开外部网站?"
 		},
 		"vs/workbench/contrib/url/browser/url.contribution": {
 			"openUrl": "打开 URL",
