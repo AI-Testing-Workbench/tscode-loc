@@ -68,7 +68,7 @@
 			"Clear whitespace characters": "清除空格字符",
 			"Clone again": "重新克隆",
 			"Clone from URL": "存储库 URL",
-			"Clone from {0}": "从 {0} 克隆",
+			"Clone from {0}": "从 码云 克隆",
 			"Cloning git repository \"{0}\"...": "正在克隆 Git 仓库“{0}”...",
 			"Commit": "提交",
 			"Commit & Push Changes": "提交和推送更改",
