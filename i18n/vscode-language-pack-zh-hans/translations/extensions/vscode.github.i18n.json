@@ -26,7 +26,7 @@
 			"No template": "无模板",
 			"Open PR": "打开 PR",
 			"Open on GitHub": "在 GitHub 上打开",
-			"Pick a folder to publish to GitHub": "选择一个要发布到 GitHub 的文件夹",
+			"Pick a folder to publish to GitHub": "选择一个要发布到 码云 的文件夹",
 			"Publish Branch & Copy Link": "发布分支并复制链接",
 			"Publishing to a private GitHub repository": "正在发布到专用 GitHub 仓库",
 			"Publishing to a public GitHub repository": "正在发布到公共 GitHub 仓库",
@@ -35,7 +35,7 @@
 			"Pushing changes...": "正在推送更改…",
 			"Select the Pull Request template": "选择拉取请求模板",
 			"Select which files should be included in the repository.": "选择应包含在仓库中的文件。",
-			"Successfully published the \"{0}\" repository to GitHub.": "已将“{0}”仓库成功发布到 GitHub。",
+			"Successfully published the \"{0}\" repository to GitHub.": "已将“{0}”仓库成功发布到 码云。",
 			"The PR \"{0}/{1}#{2}\" was successfully created on GitHub.": "已在 GitHub 上成功创建 PR“{0}/{1}#{2}”。",
 			"The current branch has unpublished commits. Would you like to push your commits before copying a link?": "当前分支有未发布的提交。是否要在复制链接之前推送提交?",
 			"The current branch is not published to the remote. Would you like to publish your branch before copying a link?": "当前分支未发布到远程。是否要在复制链接之前发布分支?",
@@ -51,15 +51,15 @@
 			"command.copyVscodeDevLink": "复制 vscode.dev 链接",
 			"command.openOnGitHub": "在 GitHub 上打开",
 			"command.openOnVscodeDev": "在 vscode.dev 中打开",
-			"command.publish": "发布到 GitHub",
+			"command.publish": "发布到 码云",
 			"config.branchProtection": "控制是否查询 GitHub 存储库的存储库规则",
 			"config.gitAuthentication": "控制是否在 VS Code 中为 git 命令启用自动 GitHub 身份验证。",
 			"config.gitProtocol": "控制用于克隆 GitHub 仓库的协议",
 			"config.showAvatar": "控制是否以各种悬停方式显示提交作者的 GitHub 虚拟形象 (，例如 Git 追溯、日程表、源代码管理图等 )",
 			"description": "适用于 VS Code 的 GitHub 功能",
 			"displayName": "GitHub",
-			"welcome.publishFolder": "可以直接将此文件夹发布到 GitHub 仓库。发布后，你将有权访问由 Git 和 GitHub 提供支持的源代码管理功能。\r\n[$(github) 发布到 GitHub](command:github.publish)",
-			"welcome.publishWorkspaceFolder": "可以直接将工作区文件夹发布到 GitHub 仓库。发布后，你将有权访问由 Git 和 GitHub 提供支持的源代码管理功能。\r\n[$(github) 发布到 GitHub](command:github.publish)"
+			"welcome.publishFolder": "可以直接将此文件夹发布到 码云 仓库。发布后，你将有权访问由 Git 和 GitHub 提供支持的源代码管理功能。\r\n[$(github) 发布到 码云](command:github.publish)",
+			"welcome.publishWorkspaceFolder": "可以直接将工作区文件夹发布到 码云 仓库。发布后，你将有权访问由 Git 和 GitHub 提供支持的源代码管理功能。\r\n[$(github) 发布到 码云](command:github.publish)"
 		}
 	}
 }
