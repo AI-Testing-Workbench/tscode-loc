@@ -3213,7 +3213,7 @@
 			"Other": "其他:",
 			"RunAfter": "安装后运行 %1",
 			"SourceFile": "%1 源文件",
-			"UpdatingVisualStudioCode": "正在更新 Visual Studio Code..."
+			"UpdatingVisualStudioCode": "正在更新 TestAgent工作台..."
 		},
 		"vs/code/electron-main/app": {
 			"cancel": "否(&&N)",
@@ -16035,13 +16035,13 @@
 			"learn more": "了解详细信息",
 			"noUpdatesAvailable": "当前没有可用的更新。",
 			"read the release notes": "欢迎使用 {0} v{1}! 是否要阅读发布说明?",
-			"relaunchDetailInsiders": "按“重新加载”按钮切换到 Insiders 版本的 VS Code。",
+			"relaunchDetailInsiders": "按“重新加载”按钮切换到 Insiders 版本。",
 			"relaunchDetailStable": "按“重新加载”按钮切换到稳定版的 TestAgent工作台。",
 			"relaunchMessage": "需要重载，然后对版本的更改才会生效",
 			"releaseNotes": "发行说明",
 			"reload": "重载(&&R)",
 			"restartToUpdate": "重新启动以更新 (1)",
-			"selectSyncService.detail": "默认情况下，Insiders 版本的 VS Code 将使用单独的 Insiders 设置同步服务来同步你的设置、键绑定、扩展、片段、UI 状态。",
+			"selectSyncService.detail": "默认情况下，Insiders 版本 将使用单独的 Insiders 设置同步服务来同步你的设置、键绑定、扩展、片段、UI 状态。",
 			"selectSyncService.message": "选择在更改版本后要使用的设置同步服务",
 			"showUpdateReleaseNotes": "显示更新发行说明",
 			"switchToInsiders": "切换到 Insiders 版本...",
