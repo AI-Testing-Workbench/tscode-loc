@@ -5566,7 +5566,7 @@
 			"verbosity.scm": "提供有关在以输入为焦点时如何访问源代码管理辅助功能帮助菜单的信息。",
 			"verbosity.terminal.description": "提供有关如何在聚焦终端时访问终端辅助功能帮助菜单的信息。",
 			"verbosity.terminalChatOutput.description": "介绍如何在辅助视图中打开聊天终端输出。",
-			"verbosity.walkthrough": "提供有关如何在辅助视图中打开演练的信息。",
+			"verbosity.walkthrough": "提供有关如何在辅助视图中打开使用指引的信息。",
 			"voice.ignoreCodeBlocks": "是否忽略文本到语音转换合成中的代码片段。",
 			"voice.speechLanguage": "文本转语音和语音转文本应使用的语言。如果可能，请选择 `auto` 以使用所配置的显示语言。请注意，语音识别与合成器并不支持所有显示语言。",
 			"voice.speechTimeout": "停止说话后语音识别保持活动状态的持续时间（以毫秒为单位）。例如，在聊天会话中，超时后自动提交听录文本。设置为“0”以禁用此功能。"
@@ -9363,7 +9363,7 @@
 			"workbench.extensions.action.undoIgnoredRecommendation": "撤消已忽略的建议",
 			"workbench.extensions.installExtension.arg.decription": "扩展 ID 或 VSIX 资源 URI",
 			"workbench.extensions.installExtension.description": "安装给定的扩展",
-			"workbench.extensions.installExtension.option.context": "安装的上下文。这是一个 JSON 对象，可用于将任何信息传递给安装处理程序。例如，“{skipWalkthrough: true}”将在安装时跳过打开演练。",
+			"workbench.extensions.installExtension.option.context": "安装的上下文。这是一个 JSON 对象，可用于将任何信息传递给安装处理程序。例如，“{skipWalkthrough: true}”将在安装时跳过打开使用指引。",
 			"workbench.extensions.installExtension.option.donotSync": "启用后，TestAgent工作台 在启用“设置同步”时不同步此扩展。",
 			"workbench.extensions.installExtension.option.enable": "启用后，如果安装了该扩展但已将其禁用，则将启用该扩展。如果已启用该扩展，则该操作不起作用。",
 			"workbench.extensions.installExtension.option.installOnlyNewlyAddedFromExtensionPackVSIX": "启用后，TestAgent工作台 仅安装来自扩展包 VSIX 的新添加的扩展。仅在安装 VSIX 时才考虑此选项。",
@@ -16412,7 +16412,7 @@
 			"noRecents": "你没有最近使用的文件夹，",
 			"openFolder": "打开文件夹",
 			"optOut": "选择退出",
-			"pickWalkthroughs": "打开演练...",
+			"pickWalkthroughs": "打开使用指引...",
 			"privacy statement": "隐私声明",
 			"recent": "最近",
 			"show more recents": "显示所有最近使用的文件夹 {0}",
@@ -16423,7 +16423,7 @@
 			"toStart": "以开始。",
 			"videoAltText": "{0} 的视频",
 			"videoShowing": "显示 {0} 的视频",
-			"walkthroughs": "演练",
+			"walkthroughs": "使用指引",
 			"welcome": "欢迎",
 			"welcomeAriaLabel": "关于编辑器快速入门的概述。",
 			"welcomePage.openFolderWithPath": "打开路径为 {1} 的文件夹 {0}",
@@ -16432,13 +16432,13 @@
 		"vs/workbench/contrib/welcomeGettingStarted/browser/gettingStarted.contribution": {
 			"deprecationMessage": "已弃用，请使用全局 `workbench.reduceMotion`。",
 			"miWelcome": "欢迎",
-			"minWelcomeDescription": "打开演练，以帮助你开始使用 TestAgent工作台。",
-			"pickWalkthroughs": "选择要打开的演练",
+			"minWelcomeDescription": "打开使用指引，以帮助你开始使用 TestAgent工作台。",
+			"pickWalkthroughs": "选择要打开的使用指引",
 			"welcome": "欢迎",
 			"welcome.goBack": "后退",
 			"welcome.markStepComplete": "标记步骤完成",
 			"welcome.markStepInomplete": "标记步骤未完成",
-			"welcome.showAllWalkthroughs": "打开演练...",
+			"welcome.showAllWalkthroughs": "打开使用指引...",
 			"workbench.startupEditor": "在没有从上一会话中恢复出信息的情况下，控制启动时显示的编辑器。",
 			"workbench.startupEditor.newUntitledFile": "打开新的无标题文本文件(仅在打开空窗口时适用)。",
 			"workbench.startupEditor.none": "在启动时不打开编辑器。",
@@ -16447,7 +16447,7 @@
 			"workbench.startupEditor.welcomePage": "打开包含帮助开始使用 TestAgent工作台 和扩展内容的欢迎页面。",
 			"workbench.startupEditor.welcomePageInEmptyWorkbench": "在打开空工作区时打开欢迎页面。",
 			"workbench.welcomePage.preferReducedMotion": "启用后，减少欢迎页中的移动。",
-			"workbench.welcomePage.walkthroughs.openOnInstall": "启用后，扩展的演练将在安装扩展时打开。",
+			"workbench.welcomePage.walkthroughs.openOnInstall": "启用后，扩展的使用指引将在安装扩展时打开。",
 			"workspacePlatform": "当前工作区的平台，在远程或无服务器上下文中可能不同于 UI 的平台"
 		},
 		"vs/workbench/contrib/welcomeGettingStarted/browser/gettingStartedAccessibleView": {
@@ -16456,7 +16456,7 @@
 			"gettingStarted.title": "标题: {0}"
 		},
 		"vs/workbench/contrib/welcomeGettingStarted/browser/gettingStartedColors": {
-			"walkthrough.stepTitle.foreground": "每个演练步骤标题的前景色",
+			"walkthrough.stepTitle.foreground": "每个使用指引步骤标题的前景色",
 			"welcomePage.background": "欢迎页面的背景色。",
 			"welcomePage.progress.background": "欢迎页面进度栏的前景色。",
 			"welcomePage.progress.foreground": "欢迎页面进度栏的背景色。",
@@ -16467,18 +16467,18 @@
 		"vs/workbench/contrib/welcomeGettingStarted/browser/gettingStartedExtensionPoint": {
 			"pathDeprecated": "已弃用。请改用“图像”或“Markdown”",
 			"title": "标题",
-			"walkthroughs": "提供演练以帮助用户入门扩展。",
-			"walkthroughs.description": "演练的说明。",
-			"walkthroughs.featuredFor": "与这些 glob 模式之一匹配的演练在具有指定文件的工作区中显示为“特色”。例如，针对 TypeScript 项目的演练可能在此处指定“tsconfig.json”。",
-			"walkthroughs.icon": "演练图标的相对路径。路径相对于扩展位置。如果未指定，则图标在可用时将默认为扩展图标。",
-			"walkthroughs.id": "此演练的唯一标识符。",
-			"walkthroughs.steps": "要在此演练期间完成的步骤。",
+			"walkthroughs": "提供使用指引以帮助用户入门扩展。",
+			"walkthroughs.description": "使用指引的说明。",
+			"walkthroughs.featuredFor": "与这些 glob 模式之一匹配的使用指引在具有指定文件的工作区中显示为“特色”。例如，针对 TypeScript 项目的使用指引可能在此处指定“tsconfig.json”。",
+			"walkthroughs.icon": "使用指引图标的相对路径。路径相对于扩展位置。如果未指定，则图标在可用时将默认为扩展图标。",
+			"walkthroughs.id": "此使用指引的唯一标识符。",
+			"walkthroughs.steps": "要在此使用指引期间完成的步骤。",
 			"walkthroughs.steps.button.deprecated.interpolated": "已弃用。请改用说明中的 markdown 链接，例如 {0}、{1}、或 {2}",
 			"walkthroughs.steps.completionEvents": "应触发此步骤变为已勾选的事件。如果为空或未定义，则在单击任何步骤的按钮或链接时，步骤将撤销复选; 如果该步骤没有按钮或链接，则选中它时会选中。",
 			"walkthroughs.steps.completionEvents.extensionInstalled": "安装具有给定 id 的扩展时，请关闭步骤。如果已安装扩展，则步骤将以勾选状态开始。",
 			"walkthroughs.steps.completionEvents.onCommand": "在 TestAgent工作台 中的任何位置执行给定命令时，勾选步骤。",
 			"walkthroughs.steps.completionEvents.onContext": "当上下文键表达式为 true 时，勾选步骤。",
-			"walkthroughs.steps.completionEvents.onLink": "通过演练步骤打开给定链接时的签出步骤。",
+			"walkthroughs.steps.completionEvents.onLink": "通过使用指引步骤打开给定链接时的签出步骤。",
 			"walkthroughs.steps.completionEvents.onSettingChanged": "在给定设置发生更改时勾选步骤",
 			"walkthroughs.steps.completionEvents.onView": "打开给定视图时选中步骤",
 			"walkthroughs.steps.completionEvents.stepSelected": "选中后立即勾选步骤。",
@@ -16498,22 +16498,22 @@
 			"walkthroughs.steps.oneOn.command": "执行指定命令时将步骤标记为已完成。",
 			"walkthroughs.steps.title": "步骤标题。",
 			"walkthroughs.steps.when": "用于控制此步骤可见性的上下文键表达式。",
-			"walkthroughs.title": "演练的标题。",
-			"walkthroughs.when": "用于控制此演练的可见性的上下文键表达式。"
+			"walkthroughs.title": "使用指引的标题。",
+			"walkthroughs.when": "用于控制此使用指引的可见性的上下文键表达式。"
 		},
 		"vs/workbench/contrib/welcomeGettingStarted/browser/gettingStartedIcons": {
-			"gettingStartedChecked": "用于表示已完成的演练步骤",
-			"gettingStartedUnchecked": "用于表示尚未完成的演练步骤"
+			"gettingStartedChecked": "用于表示已完成的使用指引步骤",
+			"gettingStartedUnchecked": "用于表示尚未完成的使用指引步骤"
 		},
 		"vs/workbench/contrib/welcomeGettingStarted/browser/gettingStartedInput": {
 			"getStarted": "欢迎",
-			"walkthroughPageTitle": "演练: {0}"
+			"walkthroughPageTitle": "使用指引: {0}"
 		},
 		"vs/workbench/contrib/welcomeGettingStarted/browser/gettingStartedService": {
 			"builtin": "内置",
 			"developer": "开发人员",
-			"resetGettingStartedProgressDescription": "重置欢迎页面上所有演练步骤的进度，以将其外观设置为初次查看，从而为入门体验提供全新开端。",
-			"resetWelcomePageWalkthroughProgress": "重置欢迎页面演练进度"
+			"resetGettingStartedProgressDescription": "重置欢迎页面上所有使用指引步骤的进度，以将其外观设置为初次查看，从而为入门体验提供全新开端。",
+			"resetWelcomePageWalkthroughProgress": "重置欢迎页面使用指引进度"
 		},
 		"vs/workbench/contrib/welcomeGettingStarted/browser/startupPage": {
 			"startupPage.markdownPreviewError": "无法打开 Markdown 预览: {0}。\r\n\r\n请确保已启用 Markdown 扩展。",
@@ -16601,7 +16601,7 @@
 			"gettingStarted.setup.description": "自定义编辑器、了解基础知识并开始编码",
 			"gettingStarted.setup.title": "开始使用 TestAgent工作台",
 			"gettingStarted.setup.walkthroughPageTitle": "安装程序 TestAgent工作台",
-			"gettingStarted.setupAccessibility.description": "了解可用于访问 TestAgent工作台 的工具和快捷方式。请注意，某些操作在演练的上下文中不可操作。",
+			"gettingStarted.setupAccessibility.description": "了解可用于访问 TestAgent工作台 的工具和快捷方式。请注意，某些操作在使用指引的上下文中不可操作。",
 			"gettingStarted.setupAccessibility.title": "辅助功能入门",
 			"gettingStarted.setupAccessibility.walkthroughPageTitle": "安装程序 TestAgent工作台 辅助功能",
 			"gettingStarted.setupWeb.description": "自定义编辑器、了解基础知识并开始编码",
@@ -16731,7 +16731,7 @@
 			"walkThrough.unboundCommand": "未绑定"
 		},
 		"vs/workbench/contrib/welcomeWalkthrough/common/walkThroughUtils": {
-			"walkThrough.embeddedEditorBackground": "嵌入于交互式演练场中的编辑器的背景颜色。"
+			"walkThrough.embeddedEditorBackground": "嵌入于交互式使用指引场中的编辑器的背景颜色。"
 		},
 		"vs/workbench/contrib/workspace/browser/workspace.contribution": {
 			"addWorkspaceFolderDetail": "你正在将文件添加到受信任的工作区，该工作区当前不受信任。是否信任这些新文件的作者?",
@@ -17425,7 +17425,7 @@
 			"vscode.extension.activationEvents.onTerminalShellIntegration": "为给定的 shell 类型激活终端 shell 集成时发出的激活事件。",
 			"vscode.extension.activationEvents.onUri": "在打开系统范围内并指向此扩展的 URI 时发出的激活事件。",
 			"vscode.extension.activationEvents.onView": "在指定视图被展开时发出的激活事件。",
-			"vscode.extension.activationEvents.onWalkthrough": "打开指定演练时发出的激活事件。",
+			"vscode.extension.activationEvents.onWalkthrough": "打开指定使用指引时发出的激活事件。",
 			"vscode.extension.activationEvents.onWebviewPanel": "当加载某个 viewType 的 Web 视图时，会发出激活事件",
 			"vscode.extension.activationEvents.star": "在 TestAgent工作台 启动时发出的激活事件。为确保良好的最终用户体验，请仅在其他激活事件组合不适用于你的情况时，才在扩展中使用此事件。",
 			"vscode.extension.activationEvents.workspaceContains": "在打开至少包含一个匹配指定 glob 模式的文件的文件夹时发出的激活事件。",
@@ -17750,10 +17750,10 @@
 			"RemoteHelpInformationExtPoint.documentation": "项目文档页面的 URL 或返回此 URL 的命令",
 			"RemoteHelpInformationExtPoint.feedback": "项目反馈报告器的 URL 或返回 URL 的命令",
 			"RemoteHelpInformationExtPoint.feedback.deprecated": "请改用 {0}",
-			"RemoteHelpInformationExtPoint.getStarted": "项目入门页的 URL 或返回 URL 的命令，或项目扩展提供的演练 ID",
+			"RemoteHelpInformationExtPoint.getStarted": "项目入门页的 URL 或返回 URL 的命令，或项目扩展提供的使用指引 ID",
 			"RemoteHelpInformationExtPoint.issues": "项目问题列表的 URL 或返回 URL 的命令",
 			"RemoteHelpInformationExtPoint.reportIssue": "向项目的问题报告器返回 URL 的 URL 或命令",
-			"getStartedWalkthrough.id": "要打开的“入门”演练的 ID。"
+			"getStartedWalkthrough.id": "要打开的“入门”使用指引的 ID。"
 		},
 		"vs/workbench/services/remote/common/tunnelModel": {
 			"remote.localPortMismatch.single": "无法使用本地端口 {0} 转发到远程端口 {1}。\r\n\r\n当已存在使用本地端口 {0} 的其他进程时，通常会发生这种情况。\r\n\r\n已改为使用端口号 {2}。",
